@@ -101,7 +101,7 @@ function PhotoSlider({ data, BodySections }) {
           </div>
         </div>
       ) : (
-        <p className="w-100 text-center fw-bold fs-1">No data available</p>
+        <p className="w-100 text-center fw-bold fs-1">Processing...</p>
       )}
     </div>
   );
