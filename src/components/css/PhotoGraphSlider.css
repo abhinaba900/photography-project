@@ -4,9 +4,7 @@
   height: 23.875rem;
   margin-top: 4rem;
 }
-::selection {
-  background: transparent !important;
-}
+
 .no-select {
   user-select: none;
 }
