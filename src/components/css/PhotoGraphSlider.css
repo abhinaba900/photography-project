@@ -4,6 +4,12 @@
   height: 23.875rem;
   margin-top: 4rem;
 }
+::selection {
+  background: transparent !important;
+}
+.no-select {
+  user-select: none;
+}
 
 .swiper {
   width: 100%;
@@ -83,7 +89,7 @@
     height: 15rem;
   }
   .swiper-slide img {
-    width: 17.6rem ;
+    width: 17.6rem;
     height: 12.2rem;
   }
 }
@@ -92,7 +98,7 @@
   .photograph-slider-container-parent {
     width: 90% !important;
     height: fit-content;
-    margin-top: -6rem !important;
+    margin-top: -6rem;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -133,12 +139,11 @@
 @media (max-width: 1020px) {
   .photograph-slider-container-parent {
     width: 90% !important;
+    height: fit-content !important;
     height: fit-content;
-    margin-top: -6rem !important;
-    position: relative;
     top: 50%;
     transform: translateY(-50%);
-    margin-top: 20rem !important;
+    margin-top: 0rem !important;
   }
 
   .photograph-slider-container-parent-2 {
@@ -173,15 +178,12 @@
 @media (max-width: 768px) {
   .photograph-slider-container-parent {
     width: 90% !important;
-    height: fit-content;
-    margin-top: -6rem !important;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+
+    margin-top: 0;
   }
 
   .photograph-slider-container-parent-2 {
-    margin-top: 10rem !important;
+    margin-top: 0rem !important;
   }
   .swiper-next,
   .swiper-next-el {
@@ -213,7 +215,7 @@
   .photograph-slider-container-parent {
     width: 90% !important;
     height: fit-content;
-    margin-top: -6rem !important;
+    margin-top: 0;
     position: relative;
     top: 50%;
     transform: translateY(-50%);

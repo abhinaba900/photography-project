@@ -23,7 +23,7 @@ function PhotoSlider({ data, BodySections }) {
      data?.map((slide, index) => (
        <SwiperSlide key={`slide-${index}`}>
          <section key={`section-${index}`}>
-           <img loading="lazy" src={slide} alt={`Slide ${index + 1}`} />
+           <img loading="lazy" className="no-select" src={slide} alt={`Slide ${index + 1}`} />
          </section>
        </SwiperSlide>
      )) || [];
@@ -98,10 +98,10 @@ function PhotoSlider({ data, BodySections }) {
              console.log("prev");
            }}
          >
-           <img src={NavigationArrowLeft} alt="Previous button" />
+           <img src={NavigationArrowLeft} className="no-select" alt="Previous button" />
          </div>
          <div ref={nextRef} className="swiper-next-el">
-           <img src={NavigationArrowRight} alt="Next button" />
+           <img src={NavigationArrowRight} className="no-select" alt="Next button" />
          </div>
        </div>
      ) : (

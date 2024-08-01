@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1df4a712.css",
-    "main.js": "/static/js/main.f9b29af2.js",
+    "main.css": "/static/css/main.4e20bad6.css",
+    "main.js": "/static/js/main.d87ab79c.js",
     "static/js/453.0efd63b4.chunk.js": "/static/js/453.0efd63b4.chunk.js",
     "static/media/rachael-gorjestani-X6CZGpJBi8U-unsplash.jpg": "/static/media/rachael-gorjestani-X6CZGpJBi8U-unsplash.36d6b205f3d4a0003dbe.jpg",
     "static/media/zdenek-machacek-UxHol6SwLyM-unsplash.jpg": "/static/media/zdenek-machacek-UxHol6SwLyM-unsplash.d1d4e23256e69e609c8c.jpg",
@@ -38,13 +38,17 @@
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/background.png": "/static/media/background.005d70cb8ce0c8dc0bbd.png",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/ap_logo 1.svg": "/static/media/ap_logo 1.5c8b51ff09341b74e71ebf61ab928da3.svg",
+    "static/media/mdi_instagram.svg": "/static/media/mdi_instagram.22d968e265cdc84243e6a1624f802f56.svg",
+    "static/media/mdi_youtube.svg": "/static/media/mdi_youtube.075f49fff00f4372b1b9cc94910d22ad.svg",
     "index.html": "/index.html",
-    "main.1df4a712.css.map": "/static/css/main.1df4a712.css.map",
-    "main.f9b29af2.js.map": "/static/js/main.f9b29af2.js.map",
+    "static/media/ri_facebook-fill.svg": "/static/media/ri_facebook-fill.c137f9237e060052bc15950545ebd70a.svg",
+    "main.4e20bad6.css.map": "/static/css/main.4e20bad6.css.map",
+    "main.d87ab79c.js.map": "/static/js/main.d87ab79c.js.map",
     "453.0efd63b4.chunk.js.map": "/static/js/453.0efd63b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1df4a712.css",
-    "static/js/main.f9b29af2.js"
+    "static/css/main.4e20bad6.css",
+    "static/js/main.d87ab79c.js"
   ]
 }
